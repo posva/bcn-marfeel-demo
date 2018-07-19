@@ -1,9 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
 
-import Home from "./views/Home";
-import Search from "./views/Search";
-import Contact from "./views/Contact";
+const Home = () => import("./views/Home");
+const Search = () => import("./views/Search");
+const Contact = () => import("./views/Contact");
 
 Vue.use(Router);
 
