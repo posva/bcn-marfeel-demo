@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact.vue renders props.contact when passed 1`] = `
+<div>
+  <router-link to="/search">Back to Search</router-link> <pre class="contact">{
+  "id": 3,
+  "firstName": "Titos",
+  "lastName": "Jamot",
+  "email": "tjamot2@noaa.gov",
+  "gender": "Male",
+  "avatar": "https://robohash.org/consequunturnostrumeligendi.png?size=250x250&amp;set=set1",
+  "registeredAt": "2013-03-26",
+  "isFavorite": false
+}</pre></div>
+`;
